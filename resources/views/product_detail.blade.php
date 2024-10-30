@@ -374,10 +374,9 @@
                                                                     @php
                                                                     $rating = $ratings->rating; // Your rating value
                                                                     $fullStars = floor($rating); // Number of full stars
-                                                                    $halfStar = ($rating - $fullStars) >= 0.5; //
-                                                                    Whether to show a half star
-                                                                    $emptyStars = 5 - ceil($rating); // Number of empty
-                                                                    stars
+                                                                    $halfStar = ($rating - $fullStars) >= 0.5;
+                                                                    //Whether to show a half star
+                                                                    $emptyStars = 5 - ceil($rating); // Number of emptystars
                                                                     @endphp
 
                                                                     {{-- Full Stars --}}
