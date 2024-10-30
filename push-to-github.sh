@@ -21,7 +21,7 @@ if [[ -n $(git status -s) ]]; then
         git commit -m "$COMMIT_MESSAGE"
 
         # Push changes to the remote repository
-        git push origin master
+        git push origin main
 
         echo "Changes pushed successfully."
     else
